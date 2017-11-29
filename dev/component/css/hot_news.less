@@ -1,0 +1,99 @@
+.hot_news{
+	overflow: hidden;
+	margin-top: 42px;
+	&>.hot_left,&>.hot_right{
+		float: left;
+	}
+	
+	
+	&>.hot_left{
+		width: 710-240px;
+		&>.main{
+		    width: 710-240px;
+			&>div{
+                margin-bottom: 10px;
+                &:nth-child(1){
+                    a{
+                        color: #036;
+                        font: 22px/40px "微软雅黑"  
+                    }
+                }
+                &>a{
+                    color: #333;
+                    font: 18px/32px "微软雅黑";
+                    height: 32px;
+                    &:hover{
+                        color: #CC0000;
+                    }
+                }
+            }
+          
+            .big{
+                width: 470px;
+                height: 125px;
+                margin-bottom: 10px;
+                &>a{
+                    display:inline-block;
+                    color: #333;
+                    font-size: 18px;
+                    width:291px;
+                    line-height:25px;
+                    margin-bottom: 32px;
+                    padding-left: 20px;
+                    &:hover{
+                        color: #CC0000;
+                    }
+                }
+                &>.show{
+                    width: 175px;
+                    height: 125px;
+                    float: left;
+                    
+                }
+                &>p{
+                    display: inline-block;
+                    width: 218px;
+                    margin-left: 20px;
+                    
+                    
+
+                }
+            } 	
+		}
+		
+		&>.point{
+            width: 710-240px;
+            margin-bottom: 10px;
+            &>div{
+            	&>a{
+                    display: block;
+                    color: #c90;
+                    font: 20px/30px "微软雅黑";
+                    &:hover{
+                        color: #CC0000;
+                    }
+                }
+                &>p{
+                    font-size: 18px;
+                    line-height: 35px;
+                    &>a{
+                        display: block;
+                        color: #333;
+                        &:hover{
+                            color: #CC0000;
+                        }
+                    }
+                            
+                } 
+            }
+                       
+                        
+        }
+		
+	}
+	
+	
+	&.hot_right{
+		width: 240px;
+	}
+}

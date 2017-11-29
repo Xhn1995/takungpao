@@ -1,0 +1,60 @@
+        &>.left{
+            width:600px;
+            height:350px;
+            .ant-carousel .slick-slide{
+                position:relative;
+                background: red;
+                &>p{
+                    color: #fff;
+                    width: 100%;
+                    font-size: 19px;
+                    position:absolute;
+                    line-height: 40px;;
+                    background: rgba(0,0,0,0.3);
+                    bottom:4px;
+                    left:10px;
+                }
+            }
+            
+            .ant-carousel .slick-dots{
+              bottom:1px;
+              li{
+                  button{
+                      width:115px;
+                      background: #336699;
+                  }
+              }
+              .slick-active{
+                  button{
+                      background: #FBB54A;
+                      
+                  }
+              }
+                
+            }
+        }
+        
+        &>.right{
+            width: 400px;
+            height: 350px;
+           &>div{
+               padding: 5px 20px;
+               &>a{
+                    color: #036;
+                   line-height: 24px;
+                   font-size: 16px;
+                   display: block;
+                   padding-bottom: 10px;
+                   &:hover{
+                       color: red;
+                   }
+               }
+               &>p{
+                  color: #666;
+                   line-height: 20px;
+                   padding-bottom: 10px;
+                   
+               }
+           }
+             
+        }
